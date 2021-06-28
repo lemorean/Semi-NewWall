@@ -27,5 +27,8 @@
 </footer>
 	
 	</div>
+	
 	<script src="${pageContext.request.contextPath}/project/layout/js/jquery-3.6.0.min.js"></script>
 	<script src="${pageContext.request.contextPath}/project/layout/js/common.js"></script>
+</body>
+</html>
