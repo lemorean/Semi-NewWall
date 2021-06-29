@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+	pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <!DOCTYPE html>
 <html>
@@ -9,6 +9,17 @@
 <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
 </head>
 <body>
-	묵묵묵묵묵묵묵묵묵
+
+	<script>
+	<c:choose>
+		<c:when test="${result>0}">
+			alert("Input Complete");
+		</c:when>
+		<c:otherwise>
+			alert("Input Failed");
+		</c:otherwise>
+	</c:choose>
+	location.href="index.jsp"
+	</script>
 </body>
 </html>
